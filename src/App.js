@@ -5,14 +5,9 @@ function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleLogin = (e) => {
-    e.preventDefault();
-    if (username === 'admin' && password === 'admin') {
-      setLoggedIn(true);
-    } else {
-      alert('Invalid credentials');
-    }
-  };
+const handleLogin = () => {
+  setIsLoggedIn(true); // Skipping credential check for demo
+};
 
   if (!loggedIn) {
     return (
