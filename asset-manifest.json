@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/client-portal/static/css/main.b4fc7870.css",
+    "main.js": "/client-portal/static/js/main.f9cd89c9.js",
+    "index.html": "/client-portal/index.html",
+    "main.b4fc7870.css.map": "/client-portal/static/css/main.b4fc7870.css.map",
+    "main.f9cd89c9.js.map": "/client-portal/static/js/main.f9cd89c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4fc7870.css",
+    "static/js/main.f9cd89c9.js"
+  ]
+}
