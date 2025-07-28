@@ -1,5 +1,6 @@
 {
   "name": "client-portal",
+  "homepage": "https://VerikoBaba.github.io/client-portal",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -13,5 +14,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
